@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meinachten</title>
+    <title>Weinachten</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <style>
@@ -16,7 +16,7 @@
 
         .headerImg h1 {
             padding-top: 40vh;
-            color: rgb(114, 4, 4);
+            color: darkred;
         }
 
         .feedback {
@@ -31,7 +31,7 @@
     <div class="container-fluit p-0  headerImg">
         <h1 class="font-weight-bold text-center">Christmas</h1>
     </div>
-    <div class="container fancyText">
+    <div class="container-fluit ml-5 fancyText">
         <i>Hallo Miriam</i><br>
         diese Seite habe ich für Weinachten gemacht. Ich weiß sie ist nicht gerade besonders, aber ein eindruck was für
         Seiten, ich programmiere.<br>
@@ -42,12 +42,12 @@
             Caius</i>
     </div>
 
-    <div class="feedback bg-light p-2">
-        <h1>Feedback</h1>
-        <p>Wie findest du die Seite?</p>
-        <input class="form-control" id="emailInput" placeholder="E-mail Adresse">
-        <input class="form-control" id="nameInput" placeholder="Name">
-        <button class="btn btn-outline-primary" id="submitBtn">Bewerten</button>
+    <div class="feedback bg-dark p-2">
+        <h2>Feedback</h2>
+        <spam>Wie findest du die Seite?</spam>
+        <input class="form-control" placeholder="Email" id="emailInput">
+        <input class="form-control mt-1" placeholder="Name" id="nameInput">
+        <button class="btn btn-outline-success mt-1" id="submitBtn">Bewerten</button>
     </div>
     <script>
         document.getElementById("submitBtn").addEventListener("click", function () {
